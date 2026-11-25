@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tevico — Enterprise-grade CloudOps for lean cloud teams</title>
+  <meta name="description" content="Enterprise-grade CloudOps, Security, FinOps, and Compliance for lean cloud teams." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============ NAV ============ -->
+  <header class="nav" id="top">
+    <div class="container nav__inner">
+      <a href="#top" class="logo-ph" aria-label="Tevico home">Tevico logo</a>
+
+      <nav class="nav__menu" id="navMenu" aria-label="Main">
+        <a href="#top" class="nav__link is-active">Home</a>
+        <a href="#how" class="nav__link">How it works?</a>
+        <div class="dropdown">
+          <button class="nav__link dropdown__toggle" aria-expanded="false">Solutions <span class="chev"></span></button>
+          <div class="dropdown__panel">
+            <a href="#platform">CloudOps</a>
+            <a href="#platform">FinOps</a>
+            <a href="#platform">SecOps</a>
+            <a href="#platform">Compliance</a>
+          </div>
+        </div>
+        <a href="#pricing" class="nav__link">Pricing</a>
+        <div class="dropdown">
+          <button class="nav__link dropdown__toggle" aria-expanded="false">Resources <span class="chev"></span></button>
+          <div class="dropdown__panel">
+            <a href="#">Blog</a>
+            <a href="#">Case studies</a>
+            <a href="#">Documentation</a>
+            <a href="#faq">FAQ</a>
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="nav__link dropdown__toggle" aria-expanded="false">Contact us <span class="chev"></span></button>
+          <div class="dropdown__panel">
+            <a href="#contact">Talk to sales</a>
+            <a href="#contact">Support</a>
+            <a href="mailto:connect@tevi.co">connect@tevi.co</a>
+          </div>
+        </div>
+        <div class="nav__mobile-actions">
+          <a href="#" class="btn btn--ghost">Log in</a>
+          <a href="#contact" class="btn btn--dark">Try For Free</a>
+        </div>
+      </nav>
+
+      <div class="nav__actions">
+        <a href="#" class="nav__login">Log in</a>
+        <a href="#contact" class="btn btn--dark">Try For Free</a>
+      </div>
+
+      <button class="nav__burger" id="navBurger" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero">
+      <div class="container hero__inner">
+        <h1 class="hero__title">
+          Enterprise-grade CloudOps,<br />
+          Security, FinOps, and Compliance<br />
+          <strong>for lean cloud teams.</strong>
+        </h1>
+        <p class="hero__sub">You focus on your business while we take care of your Cloud Cost, Security, Reliability &amp; Compliance</p>
+        <a href="#contact" class="btn btn--dark btn--lg">Create free account</a>
+
+        <div class="mock" aria-hidden="true">
+          <div class="mock__bar">
+            <span class="dots"><i></i><i></i><i></i></span>
+            <span class="sk sk--url"></span>
+            <span class="sk sk--right"></span>
+          </div>
+          <div class="mock__kpis">
+            <div><span class="sk sk--s"></span><span class="sk sk--kpi" style="width:30%"></span></div>
+            <div><span class="sk sk--s"></span><span class="sk sk--kpi" style="width:8%"></span></div>
+            <div><span class="sk sk--s"></span><span class="sk sk--kpi" style="width:75%"></span></div>
+            <div><span class="sk sk--s"></span><span class="sk sk--kpi" style="width:50%"></span></div>
+          </div>
+          <div class="mock__body">
+            <div class="mock__list">
+              <div class="mock__head"><span class="sk" style="width:36px"></span><span class="sk" style="width:66px"></span></div>
+              <div class="mock__row"><span class="box"></span><span class="lines"><span class="sk" style="width:70%"></span><span class="sk sk--light" style="width:42%"></span></span><span class="check"></span></div>
+              <div class="mock__row"><span class="box"></span><span class="lines"><span class="sk" style="width:56%"></span><span class="sk sk--light" style="width:34%"></span></span><span class="check"></span></div>
+              <div class="mock__row"><span class="box box--dark"></span><span class="lines"><span class="sk" style="width:65%"></span><span class="sk sk--light" style="width:38%"></span></span><span class="pill"></span></div>
+              <div class="mock__input"><span class="circle"></span><span class="sk sk--light" style="width:58%"></span><span class="sk" style="width:40px;margin-left:auto"></span></div>
+            </div>
+            <div class="mock__side">
+              <div class="mock__head"><span class="sk" style="width:32px"></span><span class="dot"></span></div>
+              <span class="sk sk--light" style="width:52%"></span>
+              <span class="sk sk--light" style="width:60%"></span>
+              <span class="sk sk--light" style="width:48%"></span>
+              <span class="sk sk--light" style="width:68%"></span>
+              <span class="sk sk--light" style="width:54%"></span>
+              <span class="sk sk--light" style="width:62%"></span>
+              <span class="sk sk--light" style="width:50%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ LOGOS ============ -->
+    <section class="logos">
+      <p class="logos__title">Trusted by <strong>100+ customers</strong> across the globe</p>
+      <div class="marquee">
+        <div class="marquee__track" id="logoTrack">
+          <span class="logo-chip"><i class="sq"></i>Boat</span>
+          <span class="logo-chip"><i class="ci"></i>Enetro</span>
+          <span class="logo-chip"><i class="sq"></i>Fiery</span>
+          <span class="logo-chip"><i class="ci"></i>Finfinity</span>
+          <span class="logo-chip"><i class="sq"></i>Hive Pro</span>
+          <span class="logo-chip"><i class="ci"></i>Indxx</span>
+          <span class="logo-chip"><i class="sq"></i>Kensium</span>
+          <span class="logo-chip"><i class="ci"></i>LightMetrics</span>
+          <span class="logo-chip"><i class="sq"></i>Omnifi</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CLOUDOPS SIMPLIFIED ============ -->
+    <section class="ops" id="how">
+      <div class="container">
+        <h2 class="h2"><span class="hl"><strong>CloudOps</strong></span> Simplified</h2>
+        <p class="lead">Every kind of Ops runs through one owner. The platform does the work,<br class="br-lg" /> a proven process keeps it steady, and certified experts cover the rest.</p>
+
+        <div class="hexwrap">
+          <div class="honeycomb">
+            <div class="hex hex--center" style="--x:0;--y:0"><span class="hex__t">t</span></div>
+            <div class="hex" style="--x:0;--y:-1"><span class="hex__ck"></span>AIOps</div>
+            <div class="hex" style="--x:-1;--y:-0.5"><span class="hex__ck"></span>DevOps</div>
+            <div class="hex" style="--x:1;--y:-0.5"><span class="hex__ck"></span>MLOps</div>
+            <div class="hex" style="--x:-2;--y:0"><span class="hex__ck"></span>FinOps</div>
+            <div class="hex" style="--x:2;--y:0"><span class="hex__ck"></span>DataOps</div>
+            <div class="hex" style="--x:-1;--y:0.5"><span class="hex__ck"></span>SecOps</div>
+            <div class="hex" style="--x:1;--y:0.5"><span class="hex__ck"></span>SysOps</div>
+            <div class="hex" style="--x:0;--y:1"><span class="hex__ck"></span>RegOps</div>
+          </div>
+          <p class="hexwrap__cap"><strong>Tevico</strong><span>by Comprinno</span></p>
+        </div>
+
+        <div class="cards3">
+          <article class="pcard">
+            <span class="pcard__icon"><svg viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="4"/><path d="M9 9h6M12 9v6"/></svg></span>
+            <span class="eyebrow">01 · Platform</span>
+            <h3>An intelligent <strong>platform</strong></h3>
+            <p>A world-class product for cost, security, reliability and performance across every kind of Ops.</p>
+            <a href="#platform" class="arrow-link">See the platform →</a>
+          </article>
+          <article class="pcard">
+            <span class="pcard__icon"><svg viewBox="0 0 24 24"><path d="M12 12c-2-3-4-4.5-6-4.5a4.5 4.5 0 0 0 0 9c2 0 4-1.5 6-4.5zm0 0c2 3 4 4.5 6 4.5a4.5 4.5 0 0 0 0-9c-2 0-4 1.5-6 4.5z"/></svg></span>
+            <span class="eyebrow">02 · Process</span>
+            <h3>A matured <strong>process</strong></h3>
+            <p>Proven methods for running cloud, brought into your team on day one.</p>
+            <a href="#process" class="arrow-link">See how it runs →</a>
+          </article>
+          <article class="pcard">
+            <span class="pcard__icon"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><path d="M3.5 19a5.5 5.5 0 0 1 11 0M16 5.5a3 3 0 0 1 0 5.5M17.5 14.5A5.5 5.5 0 0 1 20.5 19"/></svg></span>
+            <span class="eyebrow">03 · People</span>
+            <h3><strong>Expert</strong> support</h3>
+            <p>Certified specialists fill the gaps, so nothing goes without an owner.</p>
+            <a href="#contact" class="arrow-link">Meet the experts →</a>
+          </article>
+        </div>
+
+        <p class="tagline">You build what’s next. We <strong>run</strong> what it takes.</p>
+      </div>
+    </section>
+
+    <!-- ============ PLATFORM TABS ============ -->
+    <section class="platform" id="platform">
+      <div class="container">
+        <h2 class="h2 h2--xl">One <strong>platform</strong>, every kind of Ops.</h2>
+        <p class="lead">Tevico watches cost, security and incidents around the clock and acts<br class="br-lg" /> on what it finds, so the work is done before it reaches your team.</p>
+
+        <div class="tabs" role="tablist">
+          <button class="tab" role="tab" data-tab="cost" aria-selected="false">
+            <span class="tab__icon"><svg viewBox="0 0 24 24"><path d="M4 20h16M6 20v-6M10 20v-9M14 20v-5M18 20v-12"/></svg></span>
+            <span><span class="eyebrow">01 · Cost</span><b>Overspend spotted and stopped</b></span>
+          </button>
+          <button class="tab" role="tab" data-tab="security" aria-selected="false">
+            <span class="tab__icon"><svg viewBox="0 0 24 24"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/><path d="M9 12l2 2 4-4"/></svg></span>
+            <span><span class="eyebrow">02 · Security</span><b>Threats caught and closed</b></span>
+          </button>
+          <button class="tab is-active" role="tab" data-tab="incidents" aria-selected="true">
+            <span class="tab__icon"><svg viewBox="0 0 24 24"><path d="M3 12h4l2-5 4 10 2-5h6"/></svg></span>
+            <span><span class="eyebrow">03 · Incidents</span><b>Incidents triaged and resolved</b></span>
+          </button>
+        </div>
+
+        <div class="panel" id="tabPanel" role="tabpanel"></div>
+      </div>
+    </section>
+
+    <!-- ============ PROCESS ============ -->
+    <section class="process" id="process">
+      <div class="container">
+        <h2 class="h2 h2--xl">Connect once. The rest is <strong>on us</strong>.</h2>
+        <p class="lead">From day one, Tevico runs the same proven process on every account:<br class="br-lg" /> assess, fix, report, repeat.</p>
+
+        <div class="steps">
+          <div class="step">
+            <span class="step__num">01</span>
+            <h3>You connect your cloud</h3>
+            <p>Read-only access, a few minutes. That is your part done.</p>
+            <div class="scard">
+              <div class="scard__head"><b>Connect account</b><span class="tag">✓ Connected</span></div>
+              <dl class="kv">
+                <dt>Account ID</dt><dd>•••• •••• 4821</dd>
+                <dt>Access</dt><dd>Read-only role</dd>
+                <dt>Regions</dt><dd>6 detected</dd>
+              </dl>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step__num">02</span>
+            <h3>Tevico takes over</h3>
+            <p>Hundreds of checks across cost, security and reliability, on its own.</p>
+            <div class="scard">
+              <div class="scard__head"><b>First assessment</b><span class="muted">~3 min left</span></div>
+              <div class="prog"><div class="prog__lbl"><span>Standard checks</span><b>✓ 250 / 250</b></div><div class="prog__bar"><i data-w="100"></i></div></div>
+              <div class="prog"><div class="prog__lbl"><span>Advanced checks</span><b>164 / 250</b></div><div class="prog__bar"><i data-w="65.6"></i></div></div>
+            </div>
+          </div>
+          <div class="step">
+            <span class="step__num">03</span>
+            <h3>We fix, report and keep it that way</h3>
+            <p>Fixes, audit-ready reports and re-checks, 24×7. You approve the big calls.</p>
+            <div class="scard">
+              <div class="scard__head"><b>Fixing now</b><span class="muted">10:40</span></div>
+              <div class="sev">
+                <div class="sev__c sev__c--dark"><b>2</b><span>Critical</span></div>
+                <div class="sev__c sev__c--bold"><b>7</b><span>High</span></div>
+                <div class="sev__c"><b>18</b><span>Medium</span></div>
+                <div class="sev__c sev__c--dim"><b>41</b><span>Low</span></div>
+              </div>
+              <div class="scard__foot"><a href="#" class="btn btn--dark btn--sm">Review changes →</a><span>2 waiting for your approval</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ OUTCOMES (DARK) ============ -->
+    <section class="outcomes">
+      <div class="container">
+        <div class="outcomes__grid">
+          <div class="stat"><b>[N]+</b><span>Cloud accounts assessed</span></div>
+          <div class="stat"><b>$[N]M+</b><span>Cloud assets governed</span></div>
+          <div class="outcomes__hero">
+            <p class="outcomes__kicker">Trusted to keep your cloud secure and compliant</p>
+            <h2><strong>Outcomes</strong> we own,<br />on every cloud we run.</h2>
+          </div>
+          <div class="stat"><b>80%</b><span>Less manual effort</span></div>
+          <div class="stat"><b>60%</b><span>Avg. cost reduction</span></div>
+        </div>
+
+        <div class="testis">
+          <figure class="testi">
+            <div class="testi__nums"><div><b>$8.5–9k</b><span>saved</span></div><div><b>~80%</b><span>effort reduced</span></div></div>
+            <blockquote class="testi__q"><span class="sk sk--d" style="width:100%"></span><span class="sk sk--d" style="width:90%"></span><span class="sk sk--d" style="width:55%"></span></blockquote>
+            <figcaption><span class="avatar"></span><span><b>Ashok Ranadive</b>Co-founder &amp; CEO, Enerlly</span></figcaption>
+          </figure>
+          <figure class="testi">
+            <div class="testi__nums"><div><b>$7k+</b><span>saved</span></div><div><b>65%+</b><span>effort reduced</span></div></div>
+            <blockquote class="testi__q"><span class="sk sk--d" style="width:100%"></span><span class="sk sk--d" style="width:90%"></span><span class="sk sk--d" style="width:55%"></span></blockquote>
+            <figcaption><span class="avatar"></span><span><b>Kamal Aggarwal</b>Co-founder &amp; CEO, Autowiz</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ FAQ ============ -->
+    <section class="faq" id="faq">
+      <div class="container container--narrow">
+        <h2 class="h2 h2--xl">Questions, <strong>answered.</strong></h2>
+        <div class="faq__list">
+          <details>
+            <summary>What is Tevico?</summary>
+            <p>Tevico is a CloudOps platform by Comprinno that brings cost, security, reliability and compliance under one owner. The platform runs continuous checks and fixes, backed by a proven process and certified experts.</p>
+          </details>
+          <details>
+            <summary>What's the difference between standard and advanced assessments?</summary>
+            <p>Standard assessments cover the core best-practice checks across cost, security and reliability. Advanced assessments go deeper into workload-specific configuration, compliance frameworks and architecture review.</p>
+          </details>
+          <details>
+            <summary>Is Tevico a value add beyond my cloud provider's dashboards?</summary>
+            <p>Provider dashboards show you data. Tevico acts on it: it prioritises findings, applies fixes, reports on outcomes and keeps re-checking, with experts on hand for the calls that need judgement.</p>
+          </details>
+          <details>
+            <summary>Is it safe for regulated industries?</summary>
+            <p>Tevico connects with read-only access by default, and every change that matters waits for your approval. Audit-ready reports are produced for the compliance frameworks you follow.</p>
+          </details>
+          <details>
+            <summary>What will logging cost?</summary>
+            <p>Logging costs depend on your volume and retention. Tevico surfaces those costs alongside your other spend and recommends retention and routing settings to keep them in check.</p>
+          </details>
+          <details>
+            <summary>Can I run CI/CD or infrastructure orchestration?</summary>
+            <p>Yes. Our DevOps practice covers CI/CD pipelines and infrastructure as code. Talk to us about your setup and we'll scope it with you.</p>
+          </details>
+        </div>
+        <p class="faq__more">Still have a question? <a href="#contact" class="arrow-link">Talk to us →</a></p>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="cta" id="contact">
+      <div class="container">
+        <div class="cta__box">
+          <h2 class="h2 h2--xl">Make your cloud <strong>our job.</strong></h2>
+          <p class="lead">Connect your accounts in minutes, free. From there, the outcome<br class="br-lg" /> is ours to own.</p>
+          <div class="cta__btns">
+            <a href="#" class="btn btn--dark btn--lg">Get started</a>
+            <a href="mailto:connect@tevi.co" class="btn btn--ghost btn--lg">Talk to us</a>
+          </div>
+          <ol class="cta__steps">
+            <li><span>01</span>Sign up — free plan</li>
+            <li><span>02</span>Connect your accounts — read-only</li>
+            <li><span>03</span>We take it from there</li>
+          </ol>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer" id="pricing">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a href="#top" class="logo-ph">Tevico logo</a>
+          <p>Your Ops. Our outcome. Built by Comprinno.</p>
+          <div class="socials">
+            <a href="#" aria-label="X">X</a>
+            <a href="#" aria-label="LinkedIn">in</a>
+          </div>
+        </div>
+        <div>
+          <h4>Quick links</h4>
+          <ul>
+            <li><a href="#top">Home</a></li>
+            <li><a href="#how">How it works?</a></li>
+            <li><a href="#platform">Solutions</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#faq">Resources</a></li>
+            <li><a href="#contact">Contact us</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <a href="mailto:connect@tevi.co" class="footer__mail">connect@tevi.co</a>
+          <form class="news" id="newsForm">
+            <label for="newsEmail">Newsletter</label>
+            <div class="news__row">
+              <input id="newsEmail" type="email" placeholder="Email" required />
+              <button class="btn btn--dark" type="submit">Subscribe</button>
+            </div>
+            <p class="news__msg" id="newsMsg" hidden>Thanks — you're subscribed.</p>
+          </form>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>Copyright © <span id="year">2026</span> Tevico</span>
+        <span class="footer__legal"><a href="#">Terms of Use</a><a href="#">Privacy Policy</a></span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
